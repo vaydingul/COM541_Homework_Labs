@@ -1,0 +1,46 @@
+The homework folder consists of two seperate folders, namely src and data.
+
+src:
+    This folder includes necessary code files, which are "main.jl" and "NBClassifier.jl"
+
+data:
+    The necessary data should be positioned in this folder.
+
+Overall hierarchy of the file system should be displayed like following:
+
+homework1
+|__data
+    |__acllmdb
+        |__test
+            |__neg
+                |__ ...
+            |__pos
+                |__ ...
+            .
+            .
+            .
+        |__train
+            |__neg
+                |__ ...
+            |__pos
+                |__ ...
+            |__unsup
+                |__ ...
+            .
+            .
+            .
+        |__imdb.vocab
+        |__imdbEr.txt
+        |__README
+|__src
+    |__main.jl
+    |__NBClassifier.jl
+|__README
+
+After placing data file according to the above tree structure, one can execute the program by doing following:
+
+    - In command window, go to "src" folder.
+    - Type "julia main.jl"
+
+
+Above instructions should be sufficient to execute program without any error.
